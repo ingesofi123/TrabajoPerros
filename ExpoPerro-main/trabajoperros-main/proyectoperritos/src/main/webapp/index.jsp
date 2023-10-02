@@ -99,11 +99,8 @@
           </ul>
         </li>
       </ul>
-        //clase buscar
-      <form  class="d-flex" role="search">
-          //clase definida con la funcion para el buscar
+      <form  class="d-flex" role="search">    
         <input class="form-control me-2" type="search" placeholder="Ingrese el nombre del perro" aria-label="Search">
-        //boton buscar perro por nombre y raza 
         <button class="btn btn-outline-success" type="submit">Buscar</button>
       </form>
     </div>
@@ -220,59 +217,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
                  </div>
                  <div class="modal-body"> 
-                   <form action="SvPerro" method="POST" enctype="multipart/form-data">
-
-   
-                <div class="container text-center">
-                 <legend>Editar perro</legend>
-                  </div>
-  
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Nombre</span>
-                        <input type="text" class="form-control" name="nombre"  placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1" required="true">
-                   </div>
-     
-                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Raza</span>
-                        <input type="text" class="form-control" name="raza"  placeholder="Raza" aria-label="Username" aria-describedby="basic-addon1" required="true">
-                   </div>
-     
-     
-      
-                  <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1"> Foto </span>
-                        <input type="file" class="form-control" name="foto"  placeholder="url foto" aria-label="Username" aria-describedby="basic-addon1" required="true">
-                   </div>
-       
-       
-        
-                    <select class="form-select" aria-label="Default select example" name="punto" required="true" >
-                        <option selected>Puntos</option>
-                        <option value="1">Uno</option>
-                        <option value="2">Dos</option>
-                        <option value="3">Tres</option>
-                        <option value="4">Cuatro</option>
-                        <option value="5">Cinco</option>
-                        <option value="6">Seis</option>
-                        <option value="7">Seite</option>
-                        <option value="8">Ocho</option>
-                        <option value="9">Nueve</option>
-                        <option value="10">Diez</option>
-                      </select>
-                <br>
-     
-                        <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">Edad</span>
-                        <input type="number" class="form-control" name="edad"  placeholder="Numero" aria-label="Username" aria-describedby="basic-addon1" required="true">
-                        </div> 
-
-               
-                 <div class="mb-3">
-                         <input type="submit" value="Actualizar Perro" class="btn btn-primary">
-                   </div>
-            </form>
                    
-                        
+                       
                 </div>
                  </div> 
                  <div class="modal-footer">
