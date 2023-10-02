@@ -217,7 +217,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
                  </div>
                  <div class="modal-body"> 
-                   
+                    <div id="perro-detalles" style="display: flex; justify-content: center;">
+                        <ul>
+                            <li><a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editRaza" >Editar raza</a></li>
+                  <li><a href="#" class="btn btn-success" data-bs-toggle="modal"  data-bs-target="#editFoto" >Editar foto</a></li>
+                    <li><a href="#" class="btn btn-success" data-bs-toggle="modal"  data-bs-target="#editPuntos" >Editar puntos</a></li>
+                    <li><a href="#"class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editEdad" >Editar edad</a></li>
+                        </ul>
+                </div>
                        
                 </div>
                  </div> 
